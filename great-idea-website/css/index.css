@@ -79,6 +79,14 @@ h1, h2, h3, h4, h5 {
     padding:3%;
 }
 
+li a{
+    color: grey;
+}
+
+li a:hover{
+color:black
+}
+
 .menudiv div {
     text-align: center;
     display: inline-block;
@@ -110,6 +118,14 @@ h1 {
     margin:2% 5%;
     bottom:70%;
     border-bottom:2px solid black;
+}
+
+.Topdiv p a {
+    color: grey;
+}
+
+.Topdiv p a:hover {
+    color: black
 }
 
 .Topdiv img{
@@ -206,3 +222,4 @@ address {
     text-align: center;
     margin-bottom: 8%;
 }
+
