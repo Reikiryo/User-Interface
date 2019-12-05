@@ -87,14 +87,6 @@ h1, h2, h3, h4, h5 {
     margin-left:6%;
 }
 
-.Topdiv {
-    display:inline-block;
-    padding:5%;
-    width: 85%;
-    margin:10%;
-    bottom:70%;
-    border-bottom:2px solid black;
-}
 
 .logo {
     position:absolute;
@@ -106,24 +98,33 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     text-align:center;
-    font-size: 100px;
+    font-size: 120px;
     width: 40%;
     bottom:25%;
 }
 
+.Topdiv {
+    display:inline-block;
+    padding:8%;
+    width: 85%;
+    margin:2% 5%;
+    bottom:70%;
+    border-bottom:2px solid black;
+}
 
 .Topdiv img{
     position:absolute;
     display: inline-block;
     left:55%;
-    bottom: 3%;
-    width: 37%;
+    bottom: 15%;
+    width: 33%;
 } 
 
 .Topdiv2 {
     padding:1% 3.5%;
     border:1px solid black;
     margin-left: 10%;
+    margin-bottom: 10%;
     width:20%;
     left: 30%;
     bottom:20%;
@@ -135,3 +136,73 @@ h1 {
     font-size:30px;
 }
 
+
+.features {
+    display:inline-block;
+    font-size:26px;
+    margin-left:5%;
+    width:40%;
+}
+
+.about {
+    font-size:26px;
+    display:inline-block;
+    margin-left:5%;
+    width: 40%;
+    margin-bottom: 3%;
+}
+.middle-img {
+    margin-left: 5.2%;
+    width:85%;
+    margin-bottom:3%;
+}
+
+.services {
+    font-size:26px;
+    width: 25%;
+    margin-left:1%;
+    margin-right:10%;
+    display:inline-block
+    
+}
+
+.product {
+    font-size:26px;
+    width: 25%;
+    margin-right:10%;
+    display: inline-block;
+
+}
+
+.vision {
+    font-size:26px;
+    width: 25%;
+    display: inline-block;
+}
+
+.info2 {
+    padding-bottom:3%;
+    border-bottom: 2px solid black;
+    width:90%;
+    margin-left:4%;
+}
+
+.contact {
+    font-size:20px;
+    margin:2%;
+    margin-left: 4%;
+}
+
+.contact h2 {
+    font-size:26px;
+}
+
+address {
+    width:10%;
+}
+
+.copy {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8%;
+}
