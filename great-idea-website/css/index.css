@@ -3,26 +3,29 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+box-sizing:border-box;
+max-width:100%;
+/*border:1px solid grey; */
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +67,159 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+    margin: 0 auto;
+}
+
+.menudiv li{
+    text-align: center;
+    display: inline-block;
+    margin:0.5%;
+    padding:3%;
+}
+
+li a{
+    color: grey;
+}
+
+li a:hover{
+color:black
+}
+
+.menudiv div {
+    text-align: center;
+    display: inline-block;
+    margin:0.5%;
+    padding:3%;
+    margin-left:6%;
+}
+
+
+.logo {
+    position:absolute;
+    display: inline-block;
+    width: 18%;
+    left:75%;
+    bottom: 88%;
+}
+
+h1 {
+    text-align:center;
+    font-size: 120px;
+    width: 40%;
+    bottom:25%;
+}
+
+.Topdiv {
+    display:inline-block;
+    padding:8%;
+    width: 85%;
+    margin:2% 5%;
+    bottom:70%;
+    border-bottom:2px solid black;
+}
+
+.Topdiv p a {
+    color: grey;
+}
+
+.Topdiv p a:hover {
+    color: black
+}
+
+.Topdiv img{
+    position:absolute;
+    display: inline-block;
+    left:55%;
+    bottom: 15%;
+    width: 33%;
+} 
+
+.Topdiv2 {
+    padding:1% 3.5%;
+    border:1px solid black;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width:20%;
+    left: 30%;
+    bottom:20%;
+}
+
+.Topdiv2 p {
+    display: inline-block;
+    text-align:center;
+    font-size:30px;
+}
+
+
+.features {
+    display:inline-block;
+    font-size:26px;
+    margin-left:5%;
+    width:40%;
+}
+
+.about {
+    font-size:26px;
+    display:inline-block;
+    margin-left:5%;
+    width: 40%;
+    margin-bottom: 3%;
+}
+.middle-img {
+    margin-left: 5.2%;
+    width:85%;
+    margin-bottom:3%;
+}
+
+.services {
+    font-size:26px;
+    width: 25%;
+    margin-left:1%;
+    margin-right:10%;
+    display:inline-block
+    
+}
+
+.product {
+    font-size:26px;
+    width: 25%;
+    margin-right:10%;
+    display: inline-block;
+
+}
+
+.vision {
+    font-size:26px;
+    width: 25%;
+    display: inline-block;
+}
+
+.info2 {
+    padding-bottom:3%;
+    border-bottom: 2px solid black;
+    width:90%;
+    margin-left:4%;
+}
+
+.contact {
+    font-size:20px;
+    margin:2%;
+    margin-left: 4%;
+}
+
+.contact h2 {
+    font-size:26px;
+}
+
+address {
+    width:10%;
+}
+
+.copy {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
